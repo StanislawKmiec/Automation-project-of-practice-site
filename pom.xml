@@ -5,8 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>Swaglabs project</artifactId>
+    <artifactId>SwagLabsProject</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.5</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

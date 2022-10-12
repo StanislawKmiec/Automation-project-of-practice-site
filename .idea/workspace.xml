@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ef8c5bd-3ead-40db-b7c8-3e4390fa1002" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SelleniumTests" />
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTests">
+  <component name="RunManager" selected="TestNG.ProductsPageTests">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SwagLabsProject" />
       <method v="2">
@@ -51,10 +50,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTests" />
+      <option name="MAIN_CLASS_NAME" value="ProductsPageTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -62,11 +61,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.correctLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsPageTests.filterByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTests" />
-      <option name="METHOD_NAME" value="correctLogin" />
+      <option name="MAIN_CLASS_NAME" value="ProductsPageTests" />
+      <option name="METHOD_NAME" value="filterByPrice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,11 +73,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.emptyFields" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsPageTests.filterByPriceLoToHi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTests" />
-      <option name="METHOD_NAME" value="emptyFields" />
+      <option name="MAIN_CLASS_NAME" value="ProductsPageTests" />
+      <option name="METHOD_NAME" value="filterByPriceLoToHi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,11 +85,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.placeHoldersCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsPageTests.filterReverseAlphatebical" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTests" />
-      <option name="METHOD_NAME" value="placeHoldersCheck" />
+      <option name="MAIN_CLASS_NAME" value="ProductsPageTests" />
+      <option name="METHOD_NAME" value="filterReverseAlphatebical" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -98,11 +97,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.resetErrorMsg" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsPageTests.removeProductFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTests" />
-      <option name="METHOD_NAME" value="resetErrorMsg" />
+      <option name="MAIN_CLASS_NAME" value="ProductsPageTests" />
+      <option name="METHOD_NAME" value="removeProductFromCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginPageTests" />
-        <item itemvalue="TestNG.LoginPageTests.correctLogin" />
-        <item itemvalue="TestNG.LoginPageTests.placeHoldersCheck" />
-        <item itemvalue="TestNG.LoginPageTests.emptyFields" />
-        <item itemvalue="TestNG.LoginPageTests.resetErrorMsg" />
+        <item itemvalue="TestNG.ProductsPageTests" />
+        <item itemvalue="TestNG.ProductsPageTests.filterByPriceLoToHi" />
+        <item itemvalue="TestNG.ProductsPageTests.filterByPrice" />
+        <item itemvalue="TestNG.ProductsPageTests.removeProductFromCart" />
+        <item itemvalue="TestNG.ProductsPageTests.filterReverseAlphatebical" />
       </list>
     </recent_temporary>
   </component>

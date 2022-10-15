@@ -3,7 +3,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageObject.LoginPage;
-import pageObject.ProductsPage;
+import pageObject.ProductsListPage;
 import resources.Basic;
 
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-public class ProductsPageTests extends Basic {
+public class ProductsListPageTests extends Basic {
 
     @BeforeMethod
     public void driverStart() throws Exception {
@@ -30,7 +30,7 @@ public class ProductsPageTests extends Basic {
 
     @Test
     public void footerCheckList() throws IOException { // Response code is 999 for linkedin it's code that block the user-agent, probably because of automation
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         for (int i = 0; i < p.socialLinks().size(); i++) {
             String url = p.socialLinks().get(i).getAttribute("href");
             HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
@@ -44,13 +44,13 @@ public class ProductsPageTests extends Basic {
 
     @Test
     public void checkNumberOfItems() {
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         Assert.assertEquals(p.numberItems().size(), 6);
     }
 
     @Test
     public void addProductsToCart() {
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         p.addButton().get(0).click();
         Assert.assertEquals(p.countInCart().getText(), "1");
         p.addButton().get(1).click();
@@ -61,7 +61,7 @@ public class ProductsPageTests extends Basic {
 
     @Test
     public void removeProductFromCart() {
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         p.addButton().get(0).click();
         Assert.assertEquals(p.removeFromCartButton().getText(), data.getProperty("removeButton"));
         p.removeFromCartButton().click();
@@ -71,7 +71,7 @@ public class ProductsPageTests extends Basic {
 
     @Test
     public void logOut() {
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         p.sideMenu().click();
         p.logOutButton().click();
         LoginPage lp = new LoginPage(driver);
@@ -80,7 +80,7 @@ public class ProductsPageTests extends Basic {
 
     @Test
     public void filterReverseAlphatebical() {
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         p.filterOptions().click();
         List<String> productNames = new ArrayList<>();
 
@@ -123,7 +123,7 @@ public class ProductsPageTests extends Basic {
 
     @Test
     public void filterByPriceHiToLo() {
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         List<String> pricesWithDollar = new ArrayList<>();
 
         for(int i =0; i<p.productsPriceList().size(); i++) {
@@ -154,7 +154,7 @@ public class ProductsPageTests extends Basic {
 
     @Test
     public void filterByPriceLoToHi() {
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         List<String> pricesWithDollar = new ArrayList<>();
 
         for(int i =0; i<p.productsPriceList().size(); i++) {
@@ -185,7 +185,7 @@ public class ProductsPageTests extends Basic {
 
     @Test
     public void openCloseSideMenu() throws InterruptedException {
-        ProductsPage p = new ProductsPage(driver);
+        ProductsListPage p = new ProductsListPage(driver);
         p.showSideMenu().click();
         List<String> options = new ArrayList<>();
         Assert.assertTrue(p.wholeSideMenu().isDisplayed(), "Side menu not open");

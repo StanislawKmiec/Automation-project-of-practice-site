@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class ProductsPage {
+public class ProductsListPage {
 
     WebDriver driver;
 
-    public ProductsPage(WebDriver driver) {
+    public ProductsListPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -58,12 +58,6 @@ public class ProductsPage {
     @FindBy (xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")
     WebElement addBackPack;
 
-    /*@FindBy (xpath = "//a/span")
-    WebElement numberInCart;*/
-
-   /* @FindBy (xpath = "//button[@id='remove-sauce-labs-backpack']")
-    WebElement removeBackpack;*/
-
     By Cart = By.xpath("//a/span");
 
     public List<WebElement> socialLinks() { return driver.findElements(socials); }
@@ -99,8 +93,6 @@ public class ProductsPage {
     public WebElement addToCart() { return addBackPack; }
 
     public WebElement quantityInCart() { return driver.findElement(Cart); }
-
-   // public WebElement removeFromCart() { return removeBackpack; }
 
     public List<WebElement> checkEmptyCart() { return driver.findElements(Cart); }
 }

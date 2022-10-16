@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ef8c5bd-3ead-40db-b7c8-3e4390fa1002" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/ProductsListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductsPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductsListPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/ProductsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ProductsPageTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CartPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CartPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CartPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.ProductPageTests.removeProductFromCart">
+  <component name="RunManager" selected="TestNG.CartPageTests">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SwagLabsProject" />
       <method v="2">
@@ -52,11 +50,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductPageTests.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CartPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductPageTests" />
-      <option name="METHOD_NAME" value="addToCart" />
+      <option name="MAIN_CLASS_NAME" value="CartPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartPageTests.checkProductInCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swaglabsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CartPageTests" />
+      <option name="METHOD_NAME" value="checkProductInCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -64,11 +73,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductPageTests.backToProductsList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CartPageTests.proceedToCheckout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductPageTests" />
-      <option name="METHOD_NAME" value="backToProductsList" />
+      <option name="MAIN_CLASS_NAME" value="CartPageTests" />
+      <option name="METHOD_NAME" value="proceedToCheckout" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,22 +85,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductPageTests.enterFirstProductPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CartPageTests.removeProductFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductPageTests" />
-      <option name="METHOD_NAME" value="enterFirstProductPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductPageTests.removeProductFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swaglabsproject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductPageTests" />
+      <option name="MAIN_CLASS_NAME" value="CartPageTests" />
       <option name="METHOD_NAME" value="removeProductFromCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -100,11 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsListPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CartPageTests.returnToShopppingList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductsListPageTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="CartPageTests" />
+      <option name="METHOD_NAME" value="returnToShopppingList" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -113,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductPageTests.removeProductFromCart" />
-        <item itemvalue="TestNG.ProductPageTests.backToProductsList" />
-        <item itemvalue="TestNG.ProductPageTests.addToCart" />
-        <item itemvalue="TestNG.ProductPageTests.enterFirstProductPage" />
-        <item itemvalue="TestNG.ProductsListPageTests" />
+        <item itemvalue="TestNG.CartPageTests" />
+        <item itemvalue="TestNG.CartPageTests.proceedToCheckout" />
+        <item itemvalue="TestNG.CartPageTests.removeProductFromCart" />
+        <item itemvalue="TestNG.CartPageTests.returnToShopppingList" />
+        <item itemvalue="TestNG.CartPageTests.checkProductInCart" />
       </list>
     </recent_temporary>
   </component>

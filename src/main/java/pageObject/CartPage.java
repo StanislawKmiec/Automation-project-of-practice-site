@@ -36,9 +36,4 @@ public class CartPage {
     public List<WebElement> itemsInCart() { return driver.findElements(cartList); }
 
     public WebElement checkoutButton() { return checkout; }
-
-
-
-
-
 }

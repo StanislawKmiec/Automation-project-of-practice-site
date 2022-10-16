@@ -1,4 +1,5 @@
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageObject.CartPage;
@@ -63,4 +64,10 @@ public class CartPageTests extends Basic {
        String url = driver.getCurrentUrl();
        boolean exists = url.contains("checkout");
    }
+
+    @AfterMethod
+    public void driverEnd() {
+        driver.close();
+        driver.quit();
+    }
 }

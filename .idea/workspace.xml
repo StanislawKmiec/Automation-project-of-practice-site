@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ef8c5bd-3ead-40db-b7c8-3e4390fa1002" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/ProductsListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/ProductsListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/ProductsListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/ProductsListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ProductPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProductPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CartPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CartPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CartPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.CartPageTests.proceedToCheckout">
+  <component name="RunManager" selected="TestNG.CartPageTests">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SwagLabsProject" />
       <method v="2">
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CartPageTests" />
         <item itemvalue="TestNG.CartPageTests.proceedToCheckout" />
         <item itemvalue="TestNG.CartPageTests.removeProductFromCart" />
         <item itemvalue="TestNG.CartPageTests.returnToShopppingList" />
         <item itemvalue="TestNG.CartPageTests.checkProductInCart" />
-        <item itemvalue="TestNG.CartPageTests" />
       </list>
     </recent_temporary>
   </component>

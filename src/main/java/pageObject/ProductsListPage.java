@@ -60,6 +60,9 @@ public class ProductsListPage {
 
     By Cart = By.xpath("//a/span");
 
+    @FindBy (xpath = "//div[@class='shopping_cart_container']")
+    WebElement shopppingCart;
+
     public List<WebElement> socialLinks() { return driver.findElements(socials); }
 
     public List <WebElement> numberItems() { return driver.findElements(items); }
@@ -95,4 +98,6 @@ public class ProductsListPage {
     public WebElement quantityInCart() { return driver.findElement(Cart); }
 
     public List<WebElement> checkEmptyCart() { return driver.findElements(Cart); }
+
+    public WebElement enterCart() { return  shopppingCart; }
 }

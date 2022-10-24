@@ -104,7 +104,7 @@ public class ProductsListPageTests extends Basic {
         }
 
         Assert.assertEquals(clickedProductNames, reversOrder);
-        p.filterOptions().click(); ///dokoncz ten test tutaj
+        p.filterOptions().click();
         for (int i = 0; i <p.chooseOption().size(); i++) {
             if (p.chooseOption().get(i).getAttribute("value").equalsIgnoreCase("az"))
             {

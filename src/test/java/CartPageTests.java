@@ -63,6 +63,7 @@ public class CartPageTests extends Basic {
        c.checkoutButton().click();
        String url = driver.getCurrentUrl();
        boolean exists = url.contains("checkout");
+       Assert.assertTrue(exists, String.valueOf(true));
    }
 
     @AfterMethod

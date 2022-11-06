@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0ef8c5bd-3ead-40db-b7c8-3e4390fa1002" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CartPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductsListPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductsListPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CartPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CartPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckoutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckoutTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckoutTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.CheckoutTests.finishCheckout">
+  <component name="RunManager" selected="TestNG.CheckoutTests">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SwagLabsProject" />
       <method v="2">
@@ -48,6 +49,29 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="SwagLabsProject" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swaglabsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckoutTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTests.cancelClick" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swaglabsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckoutTests" />
+      <option name="METHOD_NAME" value="cancelClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,37 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckoutTests.finishCheckout" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swaglabsproject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckoutTests" />
-      <option name="METHOD_NAME" value="finishCheckout" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckoutTests.resetMessages" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swaglabsproject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckoutTests" />
-      <option name="METHOD_NAME" value="resetMessages" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckoutTests.finishCheckout" />
+        <item itemvalue="TestNG.CheckoutTests" />
         <item itemvalue="TestNG.CheckoutTests.checkCalculations" />
-        <item itemvalue="TestNG.CheckoutTests.correctCheckoutData" />
-        <item itemvalue="TestNG.CheckoutTests.resetMessages" />
         <item itemvalue="TestNG.CheckoutTests.checkValidation" />
+        <item itemvalue="TestNG.CheckoutTests.correctCheckoutData" />
+        <item itemvalue="TestNG.CheckoutTests.cancelClick" />
       </list>
     </recent_temporary>
   </component>

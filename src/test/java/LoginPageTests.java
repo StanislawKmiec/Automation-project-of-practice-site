@@ -21,11 +21,7 @@ public class LoginPageTests extends Basic {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
-  /* @BeforeMethod
-    public String credidentials() {
-        String pass = data.getProperty("passwordForEachAcc");
-        return pass;
-    }*/
+
     @Test
     public void correctLogin() {
         String login = data.getProperty("standardUser");

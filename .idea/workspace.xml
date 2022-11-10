@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ef8c5bd-3ead-40db-b7c8-3e4390fa1002" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckoutTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CartPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CartPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CartPageTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CheckoutTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckoutTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.CheckoutTests">
+  <component name="RunManager" selected="TestNG.CartPageTests">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SwagLabsProject" />
       <method v="2">
@@ -53,10 +53,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckoutTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CartPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckoutTests" />
+      <option name="MAIN_CLASS_NAME" value="CartPageTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -64,12 +64,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckoutTests.cancelClick" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CartPageTests.checkProductInCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swaglabsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CartPageTests" />
+      <option name="METHOD_NAME" value="checkProductInCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartPageTests.returnToShoppingList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swaglabsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CartPageTests" />
+      <option name="METHOD_NAME" value="returnToShoppingList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swaglabsproject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CheckoutTests" />
-      <option name="METHOD_NAME" value="cancelClick" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -88,37 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckoutTests.checkValidation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swaglabsproject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckoutTests" />
-      <option name="METHOD_NAME" value="checkValidation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckoutTests.correctCheckoutData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swaglabsproject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckoutTests" />
-      <option name="METHOD_NAME" value="correctCheckoutData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CartPageTests" />
+        <item itemvalue="TestNG.CartPageTests.returnToShoppingList" />
+        <item itemvalue="TestNG.CartPageTests.checkProductInCart" />
         <item itemvalue="TestNG.CheckoutTests" />
         <item itemvalue="TestNG.CheckoutTests.checkCalculations" />
-        <item itemvalue="TestNG.CheckoutTests.checkValidation" />
-        <item itemvalue="TestNG.CheckoutTests.correctCheckoutData" />
-        <item itemvalue="TestNG.CheckoutTests.cancelClick" />
       </list>
     </recent_temporary>
   </component>
